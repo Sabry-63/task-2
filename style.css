@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(51, 19, 197);
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+.app {
+    background-color: #eee;
+    padding: 30px;
+    box-shadow: 5px 5px 10px 0 #dddddd70;
+    border: 1px solid #dddddd50;
+    border-radius: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}

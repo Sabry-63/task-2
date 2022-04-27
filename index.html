@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="options">
+                <button id="blodText">Bold</button>
+                <button id="LeftText">Left</button>
+                <button id="CenterText">Center</button>
+                <button id="RightText">Right</button>
+                <button id="ItalicText">Italic</button>
+                <label for="sizeText">Size :</label>
+                <select id="sizeText">
+                    <optgroup label="Font Size">
+                        <option value="16">16</option>
+                        <option value="18">18</option>
+                        <option value="20">20</option>
+                        <option value="22">22</option>
+                        <option value="24">24</option>
+                        <option value="26">26</option>
+                    </optgroup>
+                </select>
+                <input type="color" id="colorText" />
+                <button id="resetProp">Reset</button>
+            </div>
+
+            <textarea
+                name="textArea"
+                id="textArea"
+                cols="30"
+                rows="10"
+                placeholder="Typeing Your Idea...."
+            ></textarea>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
