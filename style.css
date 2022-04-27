@@ -41,4 +41,5 @@ button {
     gap: 10px;
     margin-bottom: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
